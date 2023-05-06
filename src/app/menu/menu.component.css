@@ -1,0 +1,13 @@
+.menu{
+    background-color: #4472C4;
+}
+.menu li a{
+    color:white
+}
+.active{
+    border-bottom: 4px red solid;
+}
+.dateText{
+    color: white;
+    margin-top: 6px;
+}

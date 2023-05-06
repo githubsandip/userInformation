@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>User Information</h3>
+            <ul class="" *ngFor="let val of userData; let i=index">
+                <p style="border-bottom: 1px solid blue;">User: {{i+1}}</p>
+                <li> Name : {{val.name}}</li>
+                <li> username : {{val.username}}</li>
+                <li> email : {{val.email}}</li>
+                <li> address : {{val.address.suite + val.address.street + val.address.city + val.address.zipcode}}</li>
+                <li> phone number : {{val.phone}}</li>
+                <li> company : {{val.company.name}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

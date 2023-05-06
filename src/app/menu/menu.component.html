@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="col-md-12  row menu">
+        <div class="col-md-9 ">
+            <ul class="nav ">
+                <li class="nav-item"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                  <a class="nav-link "  routerLink="">User Information</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                  <a class="nav-link" routerLink="/about" >About Us</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                  <a class="nav-link" routerLink="/contact" >Contact</a>
+                </li>
+               
+              </ul>
+        </div>
+        <div class="col-md-3 dateText">
+            <span class="pull-right">{{day+'-'+month+'-'+year}}</span>
+        </div>
+    </div>
+</div>
